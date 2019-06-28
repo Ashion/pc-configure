@@ -1,11 +1,14 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 
-call vundle#rc()
-Bundle 'ctrlpvim/ctrlp.vim'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'Mizuchi/STL-Syntax'
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin  'Lokaltog/vim-powerline'
+Plugin  'Mizuchi/STL-Syntax'
+
+call vundle#end()
 filetype plugin indent on
 
 nmap <C-M> :<C-U>CtrlP<CR>
