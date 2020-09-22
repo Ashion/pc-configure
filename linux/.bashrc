@@ -81,6 +81,19 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+export EDITOR=vim
+alias vi='vim'
+alias cls='clear'
+alias vi='vim'
+alias -s py=vi     
+alias -s js=vi
+alias -s c=vi
+alias -s java=vi
+alias -s txt=vi
+alias -s gz='tar -xzvf'
+alias -s tgz='tar -xzvf'
+alias -s zip='unzip'
+alias -s bz2='tar -xjvf'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
